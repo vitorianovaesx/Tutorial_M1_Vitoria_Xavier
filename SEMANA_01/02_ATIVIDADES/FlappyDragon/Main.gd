@@ -1,9 +1,9 @@
 extends Node # instancia a classe Node2D
 
-var status = 1
-var vscore = 0
-var x = 1.5 
-var y = 1.5 
+var status = 1 #variável pra dizer o status se tá jogando ou não
+var vscore = 0 # variável que adiciona um número incial + total de árvores passadas aka número de scores
+var x = 3.0 # variável que indica velocidade
+var y = 3.0 # variável que indica gravidade
 
 # executa essa função ao carregar o jogo
 func _ready():
